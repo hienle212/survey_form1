@@ -1,0 +1,15 @@
+#container{
+	width:900px;
+	height:800px;
+}
+fieldset {
+	width:500px;
+	height:300px;
+	border: 2px solid black;
+}
+#button{
+	margin-left: 300px;
+	margin-top: 30px;
+	width:50px;
+	height:15px;
+}

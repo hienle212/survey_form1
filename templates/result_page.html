@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result page</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='result_style.css') }}">
+</head>
+  <body>
+  <div id="container">
+    <fieldset>
+      <div id='Dimensions'>
+        <h3>Submitted Information</h3>
+        <p>Name: {{session['name']}} </p>
+        <p>Dojo Location: {{session['location']}} </p>
+        <p>Favorite Language:{{session['language']}} </p>
+        <p>Comment:{{session['comment']}} </p>
+        <button id='button'><a href="/">Go Back</a></button>
+      </div>
+    </fieldset>
+    </div>
+  </body>
+</html>
+
+</body>
+</html>
